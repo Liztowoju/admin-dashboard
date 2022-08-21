@@ -72,14 +72,53 @@ body, h1, h2, h3, h4, h5, h6{
     align-items: center;
     /* justify-content: center; */
 }
-.search-btn{
-    padding-right: 10px;
-    border: none;
-    background-color: white;
-    cursor: pointer;
+.lower-links{
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
 }
+/* .intro p{
+    padding-bottom: 0px;
+} */
+.rabbit-img{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.right-links{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.up-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+}
+.low-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blue{
+    background-color: #1992d3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.search-img{
+    padding-right: 15px;
+}
+
+.search{
+    width: 80%;
+}
+
 #site-search{
-    width: 60%;
+    width: 100%;
     /* margin: 3px; */
     /* width: 5px; */
     border-radius: 25px;
